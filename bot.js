@@ -1,7 +1,7 @@
 ////t.me/testbotforwebappbot.
 const { Telegraf } = require("telegraf");
 // const { message } = require("telegraf/filters");
-const token = "7356496543:AAHzc8OIg1l6fI3PdpGqXb1c_adnLHnYCKo";
+const token = "token from created TG bot in BotFather";
 const bot = new Telegraf(token);
 const webLink = "https://aslanovrustam.github.io/tg-web-app/";
 bot.start((ctx) =>
