@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.plane {
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.plane1 {
+  width: 91em;
+  bottom: 0;
+  z-index: 1;
+  animation: levitate 8s ease-in-out alternate infinite;
+}
+.plane2 {
+  width: 25.75em;
+  bottom: 34em;
+  left: 12em;
+  animation: levitate2 12s ease-in-out alternate infinite;
+}
+.plane3 {
+  width: 36.69em;
+  bottom: 36em;
+  left: 27em;
+  animation: levitate2 6s ease-in-out alternate infinite;
+}
+@keyframes levitate {
+  from {
+    transform: translate(0, 0);
+    rotate: -5deg;
+  }
+  to {
+    transform: translate(4em, 2em);
+    rotate: 2deg;
+  }
+}
+@keyframes levitate2 {
+  from {
+    transform: translate(0, 0);
+    rotate: 0deg;
+  }
+  to {
+    transform: translate(6em, -4em);
+    rotate: -5deg;
+  }
+}
+@media (orientation: portrait) {
+  .plane1 {
+    right: -29em;
+    bottom: 4em;
+  }
+  .plane2 {
+    top: 1em;
+    left: 20em;
+  }
+  .plane3 {
+    top: 1em;
+    left: -7em;
+  }
+}

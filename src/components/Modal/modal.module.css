@@ -1,0 +1,116 @@
+.overvlow {
+  overflow: hidden;
+}
+.modalBackDrop {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  height: 100%;
+  padding: 2em 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  transition: all 0.3s ease-in-out;
+  overflow: auto;
+  z-index: 2;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40em;
+  margin: auto;
+  margin-top: 30em;
+  background-image: url(../../images/popup_btn_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.popUp {
+  width: 30em;
+  margin-top: -41.1em;
+  right: 9em;
+  position: absolute;
+}
+.text {
+  color: #fff;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1.125em;
+  padding: 1em 1.325em 1.75em;
+}
+.btn {
+  position: absolute;
+  bottom: -0.8em;
+  color: #101219;
+  border-radius: 2.5em;
+  padding: 0.5em 1.225em;
+  background: #ffba00;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 90%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* z-index: 2; */
+}
+.btn:hover,
+.btn:focus {
+  background: #f6d374;
+  filter: drop-shadow(0 0 0.5em #fab801) brightness(1);
+}
+.coin {
+  position: absolute;
+  animation: 2s levitate ease-in-out infinite alternate;
+  z-index: 1;
+}
+.coin1 {
+  width: 8.1875em;
+  top: -10em;
+  right: 4em;
+}
+.coin2 {
+  width: 4.75em;
+  top: -21em;
+  left: 4em;
+  animation-delay: 1s;
+}
+.coin3 {
+  width: 8.0625em;
+  top: -35em;
+  right: 17em;
+  animation-delay: 2s;
+}
+.coin4 {
+  width: 4.25em;
+  top: -25em;
+  right: 5em;
+  animation-delay: 3s;
+}
+.coin5 {
+  width: 6.875em;
+  top: -10em;
+  left: 1em;
+  z-index: 0;
+  animation-delay: 4s;
+}
+@keyframes levitate {
+  from {
+    transform: translate(0, 0);
+    rotate: -5deg;
+  }
+  to {
+    transform: translate(0.5em, 2em);
+    rotate: 2deg;
+  }
+}
