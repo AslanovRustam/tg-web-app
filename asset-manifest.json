@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tg-web-app/static/css/main.e9c1f269.css",
+    "main.js": "/tg-web-app/static/js/main.0551b455.js",
+    "static/media/bg.png": "/tg-web-app/static/media/bg.539a38d24e831f7fc72a.png",
+    "static/media/wheel.png": "/tg-web-app/static/media/wheel.576437ddaee8a7143a6c.png",
+    "static/media/plane1.png": "/tg-web-app/static/media/plane1.2654c90a276f69f16299.png",
+    "static/media/bg_mob.png": "/tg-web-app/static/media/bg_mob.d457f4e12999dd488aaf.png",
+    "static/media/popup_loose.png": "/tg-web-app/static/media/popup_loose.0e23815d9fc55bdaf2ba.png",
+    "static/media/popup_win.png": "/tg-web-app/static/media/popup_win.b70f762c1eeb90c3ae16.png",
+    "static/media/uni_sans_heavy.ttf": "/tg-web-app/static/media/uni_sans_heavy.3f26b1c5de50b29324f4.ttf",
+    "static/media/plane3.png": "/tg-web-app/static/media/plane3.7a0e35e32ca596e7b733.png",
+    "static/media/bonuses.png": "/tg-web-app/static/media/bonuses.25a2b2f5b0b20cc4a7a1.png",
+    "static/media/popup_btn_bg.png": "/tg-web-app/static/media/popup_btn_bg.f0710fec3cb7cd6b7b37.png",
+    "static/media/plane2.png": "/tg-web-app/static/media/plane2.1d2ed6113fe521dda24b.png",
+    "index.html": "/tg-web-app/index.html",
+    "main.e9c1f269.css.map": "/tg-web-app/static/css/main.e9c1f269.css.map",
+    "main.0551b455.js.map": "/tg-web-app/static/js/main.0551b455.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9c1f269.css",
+    "static/js/main.0551b455.js"
+  ]
+}
