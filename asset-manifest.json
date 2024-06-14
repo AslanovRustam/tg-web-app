@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tg-web-app/static/css/main.e9c1f269.css",
-    "main.js": "/tg-web-app/static/js/main.f84d65c3.js",
+    "main.js": "/tg-web-app/static/js/main.35402f06.js",
     "static/media/bg.png": "/tg-web-app/static/media/bg.539a38d24e831f7fc72a.png",
     "static/media/wheel.png": "/tg-web-app/static/media/wheel.576437ddaee8a7143a6c.png",
     "static/media/plane1.png": "/tg-web-app/static/media/plane1.2654c90a276f69f16299.png",
@@ -15,10 +15,10 @@
     "static/media/plane2.png": "/tg-web-app/static/media/plane2.1d2ed6113fe521dda24b.png",
     "index.html": "/tg-web-app/index.html",
     "main.e9c1f269.css.map": "/tg-web-app/static/css/main.e9c1f269.css.map",
-    "main.f84d65c3.js.map": "/tg-web-app/static/js/main.f84d65c3.js.map"
+    "main.35402f06.js.map": "/tg-web-app/static/js/main.35402f06.js.map"
   },
   "entrypoints": [
     "static/css/main.e9c1f269.css",
-    "static/js/main.f84d65c3.js"
+    "static/js/main.35402f06.js"
   ]
 }
